@@ -1,0 +1,19 @@
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.btn {
+  height: 50px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #ddd;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #bbb;
+}
